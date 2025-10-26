@@ -1,4 +1,6 @@
-### Statystyka wyrazów ### 
+### Statystyka wyrazów ###
+
+#### index.py ####
 
 1. Naszym celem jest analiza statystyczna występowania wyrazów w Hamlecie 
 2. Podziel tekst na poszczególne wyraz 
@@ -14,6 +16,16 @@ import re
 
 text = "Hello, world. This is Python, easy to learn."
 
-# Split by space, comma, or dot
+# podziel po spacji, kropce lub przecinku
 words = re.split(r'[ ,.]+', text)
+
+
+from collections import Counter # Klasa counter pomoże ci zliczyć wystąpienia
 ```
+
+### Spłaszczanie listy ###
+
+#### flatten.py ####
+
+- podpowiedź: użyj rekurencji 
+
